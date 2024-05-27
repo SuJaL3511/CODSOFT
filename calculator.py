@@ -5,8 +5,8 @@ print("4 = Division")
 option = int(input("Choose an operation:"))
 result=0
 if (option in [1,2,3,4]):
-    first=int(input("Enter the first number:"))
-    second=int(input("Enter the second number:"))
+    first= int(input("Enter the first number:"))
+    second= int(input("Enter the second number:"))
 
     if (option == 1):
         result = first + second
